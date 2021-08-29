@@ -1,0 +1,23 @@
+.calorie-bar{
+    min-width:200px;
+    border:0;
+    border-color:white;
+    border-radius:2px;
+    margin:auto;
+    padding:15px;
+    font-size:13px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    outline-width: 0;
+
+}
+.button
+{
+    display:inline;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width:150px;
+    padding:15px;
+    border:0;
+    background-color:rgb(210, 216, 132);
+    margin:15px;
+    font-weight:bold;
+}

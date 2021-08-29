@@ -1,0 +1,84 @@
+.card:hover{
+    transform: scale(1.05);
+}
+.card{
+    background-color:rgb(210, 216, 132);
+	color: #272727;
+	padding: 20px;
+    margin-bottom:50px;
+	border-radius: 10px;
+    width:450px;
+    min-height:800px;
+	border: 0px;
+	border-style: solid;
+	transition: 200ms;
+    max-width: 380px;
+    box-shadow:0px 0px 15px -5px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+}
+.card-container{
+    background-color: white;
+    width:300px;
+    overflow: hidden;
+    box-shadow:0px 0px 15px -5px;
+    padding:70px 70px;
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+.title-card{
+    text-align:left;
+    color:rgb(10, 10, 12);
+    font-weight:bold;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:12px;
+
+}
+.ingredient-list
+{
+    font-size: 12px;
+    text-align: left;
+    font-weight:bold;
+    color:rgb(68, 68, 68);
+    
+}
+.meal-title
+{
+    font-weight:bold;
+    font-size:smaller;
+    color:black;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    padding-bottom:15px;
+    padding-top:15px;
+}
+
+@keyframes spinner {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+  }
+  .spin::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate3d(-50%, -50%, 0);
+    will-change: transform;
+  }

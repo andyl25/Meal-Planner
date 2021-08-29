@@ -1,25 +1,54 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card.js'
+import Search from './components/Search.js'
+ 
 
 function App() {
+  const { search } = window.location;
+  const query = new URLSearchParams(search).get('calories');
+
   return (
+    <>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+       
+
+
+        <p className="title">
+          Calorie Counter Meal Planner
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Search/>
+
+        <div className = "float-container">
+          <div>
+            <Card
+            meal= "Breakfast"
+            calories = {query}
+            />
+          </div>
+          <div>
+            <Card
+            meal = "Lunch"
+            calories = {query}
+            />
+          </div>
+          <div>
+            <Card
+            meal = "Dinner"
+            calories = {query}
+            />
+          </div>
+        </div>
+        
       </header>
+
     </div>
+    </>
   );
 }
+
+
 
 export default App;
