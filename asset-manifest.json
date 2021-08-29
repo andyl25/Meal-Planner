@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Meal-Planner/static/css/main.f7dc560a.chunk.css",
+    "main.js": "/Meal-Planner/static/js/main.2c2e7f72.chunk.js",
+    "main.js.map": "/Meal-Planner/static/js/main.2c2e7f72.chunk.js.map",
+    "runtime-main.js": "/Meal-Planner/static/js/runtime-main.e38a57ca.js",
+    "runtime-main.js.map": "/Meal-Planner/static/js/runtime-main.e38a57ca.js.map",
+    "static/js/2.ea4745ad.chunk.js": "/Meal-Planner/static/js/2.ea4745ad.chunk.js",
+    "static/js/2.ea4745ad.chunk.js.map": "/Meal-Planner/static/js/2.ea4745ad.chunk.js.map",
+    "static/js/3.2755476c.chunk.js": "/Meal-Planner/static/js/3.2755476c.chunk.js",
+    "static/js/3.2755476c.chunk.js.map": "/Meal-Planner/static/js/3.2755476c.chunk.js.map",
+    "index.html": "/Meal-Planner/index.html",
+    "static/css/main.f7dc560a.chunk.css.map": "/Meal-Planner/static/css/main.f7dc560a.chunk.css.map",
+    "static/js/2.ea4745ad.chunk.js.LICENSE.txt": "/Meal-Planner/static/js/2.ea4745ad.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Meal-Planner/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e38a57ca.js",
+    "static/js/2.ea4745ad.chunk.js",
+    "static/css/main.f7dc560a.chunk.css",
+    "static/js/main.2c2e7f72.chunk.js"
+  ]
+}
